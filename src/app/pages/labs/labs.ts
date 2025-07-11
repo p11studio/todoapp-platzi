@@ -16,4 +16,14 @@ export class Labs {
     'Crear proyecto',
     'Crear componentes'
   ]
+  name = 'Hugo Ponce'
+  age = 30
+  disabled = true
+  img = 'https://w3schools.com/howto/img_avatar.png';
+
+  person = {
+    name: 'Hugo Ponce',
+    age: 30,
+    avatar: 'https://w3schools.com/howto/img_avatar.png',
+  }
 }
