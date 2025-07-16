@@ -26,4 +26,11 @@ export class Labs {
     age: 30,
     avatar: 'https://w3schools.com/howto/img_avatar.png',
   }
+
+  clickHandler() {
+    alert('Hola desde el click');
+  }
+  changeHandler(event: Event) {
+    console.log('change', event);
+  }
 }
