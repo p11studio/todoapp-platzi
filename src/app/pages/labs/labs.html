@@ -26,4 +26,12 @@
   <button (dblclick)="clickHandler()">doble click</button>
   <p>(change)</p>
   <input type="number" [value]="person.age" (change)="changeHandler($event)" />
+  <p>(change)</p>
+  <input type="text" [value]="person.name" (change)="changeHandler($event)" />
+
+  <h2>Eventos del teclado</h2>
+  <p>(keydown)</p>
+  <input type="text" [value]="person.name" (keydown)="keydownHandler($event)" />
+  <p>(keydown shift t)</p>
+  <input type="text" [value]="person.name" (keydown.shift.t)="clickHandler()" />
 </div>
